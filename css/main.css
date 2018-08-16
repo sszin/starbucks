@@ -90,7 +90,7 @@
 .social a,
 footer .f_cols a,
 footer .f_cols ul li a,
-.recent_work a.work_title,
+.recent_work .work_title,
 header nav ul li a,
 #box #submit{
 	transition:all .2s linear;
@@ -218,7 +218,7 @@ header nav ul li a:hover{
 }
 #video2{
   width: 686px; height: auto;
-  box-shadow: 0 0 5px 5px rgb(243, 241, 239); 
+  box-shadow: 0 0 5px 5px rgb(243, 241, 239);
 }
 button{border:0; background: none;}
 .skip{font-size: 0; text-indent: -9999px; position: absolute; left:-9999px;}
@@ -293,7 +293,7 @@ body.fullscreen #play-control{
 	margin-right: 0;
 }
 
-.recent_work a.work_img{
+.recent_work .work_img{
 	width: 262px;
 	height: 320px;
 	background: red;
@@ -301,7 +301,7 @@ body.fullscreen #play-control{
 }
 
 
-.recent_work a.work_title{
+.recent_work .work_title{
 	display: inline-block;
 	text-decoration: none;
 	width: 262px;
@@ -316,7 +316,7 @@ body.fullscreen #play-control{
 	bottom: 0;
 }
 
-.recent_work .work:hover a.work_title{
+.recent_work .work:hover .work_title{
 	bottom: 66px;
 }
 
